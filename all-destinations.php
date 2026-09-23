@@ -3,8 +3,8 @@ session_start();
 $userId = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : null;
 
 /**
- * Categories: beach, nature, city, history, adventure, budget, luxury
- * Regions: philippines, international
+ Categories: beach, nature, city, history, adventure, budget, luxury
+ Regions: philippines, international
  */
 $destinations = [
     // --- PHILIPPINES (15) ---
